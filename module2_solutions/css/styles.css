@@ -1,0 +1,60 @@
+
+*{box-sizing: border-box;}
+
+@media (min-width:992px)
+{
+.desktop
+{
+
+float:left;
+width:33.3%;
+	
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+
+.tablet_mode_one
+{float:left;
+width:50%
+}
+
+.tablet_mode_second
+{
+	float:left;
+	width:100%;
+}
+
+}
+
+
+.h1
+{
+	text-align: center
+}
+
+section
+{
+	background-color: gray;
+	margin-left:20px;
+	margin-top: 20px;
+	border: 1px solid #000;
+} 
+
+
+ .section_title{
+	float:right;
+	width:100px;
+	text-align:center;
+	background-color: orange;
+	padding:5px 5px 5px 5px;
+	border: 1px solid #000;
+
+}
+
+.section_detail{
+	clear:right;
+	padding:5px 5px 5px 5px;
+}
