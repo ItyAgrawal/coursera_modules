@@ -47,7 +47,8 @@ clear:both;
 
 
 #main_content h3 p
-{
+{height:400px;
+  overflow: scroll;
   width:100%;
   text-align: left;
   padding-left: 10px;
